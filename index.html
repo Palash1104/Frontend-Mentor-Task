@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/queries.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+  <main id="formContainer"> 
+    <section>
+      <p class="heading">CARDHOLDER NAME</p>
+
+      <input id="cardName" type="text" class="inputBox" placeholder="e.g. Jane Appleseed" minlength="5" maxlength="25" oninput="this.value = this.value.toUpperCase()" onkeydown="preventNumbers(event)" onkeyup="preventNumbers(event)" >
+      <span id="nameError"></span>
+
+    </section>
+
+    <section>
+      <p class="heading">CARD NUMBER</p>
+
+      <input id="cardNumber" type="text" class="inputBox" placeholder="e.g. 1234 5678 9123 0000" maxlength="19" minlength="19">
+      <span id="numberError"></span>
+
+    </section>
+
+    <section class="three-heading">
+      <div>
+        <p class="heading">EXP. DATE (MM/YY)</p>
+
+        <input id="cardMonth" type="text" class="inputBox" placeholder="MM" maxlength="2" minlength="2">
+        <span id="monthError"></span>
+
+        <input id="cardYear" type="text" class="inputBox" placeholder="YY" maxlength="2" minlength="2">
+        <span id="yearError"></span>
+
+      </div>
+
+      <div>
+        <p class="heading">CVC</p>
+        <input id="cardCVC" type="text" class="inputBox" placeholder="e.g. 123" maxlength="3" minlength="3">
+        <span id="cvcError"></span>
+      </div>
+
+    </section>
+
+    <section>
+      <button id="confirmbtn" class="btn ">Confirm</button>
+    </section>
+  </main>
+
+  <figure>
+
+      <img src="/images/bg-card-front.png" class="front-card" alt="">
+      <p id="cardNumberDisplay" class="card cardHeading">0000 0000 0000 0000</p>
+      <p id="cardAccount" class="card cardAccount">JANE APPLESEED</p>
+
+      <div class="front-card-details">
+        <p id="cardMonthDisplay" class="card cardDate">00</p>
+        <p class="card cardDate">/</p>
+        <p id="cardYearDisplay" class="card cardDate">00</p>
+      </div>
+
+  </figure>
+
+  <figure>
+    <img src="/images/bg-card-back.png" class="back-card" alt="">
+    <p id="cardCVCDisplay" class="card backCard-text">000</p>
+  </figure>
+  
+  <div id="message" class="message">
+    <img src="/images/icon-complete.svg" alt="">
+    <p class="thankYou">THANK YOU!</p>
+    <p class="added">We've added your card details</p>
+    <button id="continueBtn" class="btn">Continue</button>
+  </div>
+
+  <script src="/app.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,411 @@
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url(/images/bg-main-mobile.png);
+        background-size: 25rem 13rem;
+    }
+
+    section {
+        margin-top: 1rem;
+    }
+
+    #formContainer {
+        position: absolute;
+        top: 16rem;
+        left: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .heading {
+        font-size: 10px;
+    }
+
+    .inputBox {
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    #cardMonth,
+    #cardYear {
+        width: 5rem;
+    }
+
+    #cardYear {
+        margin-left: 0.2rem;
+    }
+
+    #cardCVC {
+        width: 8rem;
+    }
+
+    .front-card {
+        position: absolute;
+        top: 7rem;
+        left: 1rem;
+        width: 18rem;
+        height: 9rem;
+    }
+
+    .cardHeading {
+        top: 12rem;
+        left: 2rem;
+        font-size: 20px;
+    }
+
+    .cardAccount {
+        top: 13rem;
+        left: 2rem;
+        font-size: 10px;
+    }
+
+    .cardDate {
+        top: 12.2rem;
+        left: 15.5rem;
+        font-size: 10px;
+    }
+
+    .back-card {
+        position: absolute;
+        left: 4rem;
+        top: 2rem;
+        width: 18rem;
+        height: 9rem;
+        z-index: -1;
+    }
+
+    .backCard-text {
+        top: 2.9rem;
+        left: 18.5rem;
+        font-size: 10px;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .message {
+        position: absolute;
+        top: 18rem;
+        left: 1rem;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .thankYou {
+        letter-spacing: 0.2rem;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #continueBtn {
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+    body {
+        background-image: url(/images/bg-main-mobile.png);
+        background-size: 100% 13rem;
+    }
+
+    section {
+        margin-top: 1rem;
+    }
+
+    #formContainer {
+        position: absolute;
+        top: 26rem;
+        left: 50%;
+        width: 20rem;
+        height: 20rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .heading {
+        font-size: 10px;
+    }
+
+    .inputBox {
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    #cardMonth,
+    #cardYear {
+        width: 5rem;
+    }
+
+    #cardYear {
+        margin-left: 0.2rem;
+    }
+
+    #cardCVC {
+        width: 8rem;
+    }
+
+    .front-card {
+        position: absolute;
+        top: 7rem;
+        left: 1rem;
+        width: 18rem;
+        height: 9rem;
+    }
+
+    .cardHeading {
+        top: 12rem;
+        left: 2rem;
+        font-size: 20px;
+    }
+
+    .cardAccount {
+        top: 13rem;
+        left: 2rem;
+        font-size: 10px;
+    }
+
+    .cardDate {
+        top: 12.2rem;
+        left: 15.5rem;
+        font-size: 10px;
+    }
+
+    .back-card {
+        position: absolute;
+        left: 4rem;
+        top: 2rem;
+        width: 18rem;
+        height: 9rem;
+        z-index: -1;
+    }
+
+    .backCard-text {
+        top: 2.9rem;
+        left: 18.5rem;
+        font-size: 10px;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .message {
+        position: absolute;
+        top: 26rem;
+        left: 50%;
+        width: 20rem;
+        transform: translate(-50%, -50%);
+    }
+
+    .thankYou {
+        letter-spacing: 0.2rem;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #continueBtn {
+        margin-top: 0.5rem
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url(/images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    #formContainer {
+        position: fixed;
+        top: 11rem;
+        right: 5rem;
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .heading {
+        font-size: small;
+    }
+
+    .inputBox {
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    #cardMonth,
+    #cardYear {
+        width: 6rem;
+    }
+
+    #cardYear {
+        margin-left: 0.5rem;
+    }
+
+    #cardCVC {
+        width: 10rem;
+    }
+
+    .front-card {
+        position: absolute;
+        top: 10rem;
+        left: 8rem;
+    }
+
+    .cardHeading {
+        top: 19rem;
+        left: 10rem;
+        font-size: xx-large;
+    }
+
+    .cardAccount {
+        top: 20.5rem;
+        left: 10rem;
+        font-size: 12px;
+    }
+
+    .cardDate {
+        top: 19.7rem;
+        left: 31.5rem;
+        font-size: 12px;
+    }
+
+    .back-card {
+        position: absolute;
+        left: 12rem;
+        top: 27rem;
+        z-index: -1;
+    }
+
+    .backCard-text {
+        top: 29.5rem;
+        left: 34rem;
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .message {
+        position: absolute;
+        top: 15rem;
+        left: 50rem;
+        width: 25rem;
+    }
+
+    .thankYou {
+        letter-spacing: 0.2rem;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #continueBtn {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        background-image: url(/images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+    }
+
+    section {
+        margin-top: 2rem;
+    }
+
+    #formContainer {
+        position: absolute;
+        top: 8rem;
+        left: 43rem;
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .heading {
+        font-size: 12px;
+    }
+
+    .inputBox {
+        font-size: 15px;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    #cardMonth,
+    #cardYear {
+        width: 6rem;
+    }
+
+    #cardYear {
+        margin-left: 0.5rem;
+    }
+
+    #cardCVC {
+        width: 10rem;
+    }
+
+    .front-card {
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+    }
+
+    .cardHeading {
+        top: 12rem;
+        left: 10rem;
+        font-size: xx-large;
+    }
+
+    .cardAccount {
+        top: 13.5rem;
+        left: 10rem;
+        font-size: 12px;
+    }
+
+    .cardDate {
+        top: 12.7rem;
+        left: 31.5rem;
+        font-size: 12px;
+    }
+
+    .back-card {
+        position: absolute;
+        left: 12rem;
+        top: 20rem;
+        z-index: -1;
+    }
+
+    .backCard-text {
+        top: 22.5rem;
+        left: 34rem;
+        font-size: 15px;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .message {
+        position: absolute;
+        top: 15rem;
+        left: 45rem;
+        width: 25rem;
+    }
+
+    .thankYou {
+        letter-spacing: 0.2rem;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #continueBtn {
+        margin-top: 2rem;
+    }
+}
